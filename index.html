@@ -25,6 +25,14 @@
     .subtitle {
       color: #7d8590;
       font-size: 0.85rem;
+      margin-bottom: 0.8rem;
+    }
+    .description {
+      color: #7d8590;
+      font-size: 0.85rem;
+      max-width: 600px;
+      text-align: center;
+      line-height: 1.6;
       margin-bottom: 1.5rem;
     }
     .subtitle a { color: #58a6ff; text-decoration: none; }
@@ -128,6 +136,9 @@
   <h1>Diffusion Evolution</h1>
   <p class="subtitle">
     Toy implementation of <a href="https://arxiv.org/abs/2410.02543">Diffusion Models are Evolutionary Algorithms</a>
+  </p>
+  <p class="description">
+    A genetic algorithm with deep ties to diffusion models. Rather than using crossover and mutation, candidates evolve toward high-fitness regions through iterative denoising &mdash; making it a natural bridge between score-based generative modeling and evolutionary optimization. The result is a simple, elegant method for distribution matching on arbitrary fitness landscapes.
   </p>
 
   <div class="main">
