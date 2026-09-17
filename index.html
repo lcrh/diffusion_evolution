@@ -37,6 +37,13 @@
     }
     .subtitle a { color: #58a6ff; text-decoration: none; }
     .subtitle a:hover { text-decoration: underline; }
+    .site-backlink {
+      align-self: flex-start;
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+    .site-backlink a { color: #7d8590; text-decoration: none; }
+    .site-backlink a:hover { color: #58a6ff; }
     .main {
       display: flex;
       gap: 1.5rem;
@@ -133,6 +140,7 @@
   </style>
 </head>
 <body>
+  <p class="site-backlink"><a href="https://lcrh.github.io/">← lcrh.github.io</a></p>
   <h1>Diffusion Evolution</h1>
   <p class="subtitle">
     Toy implementation of <a href="https://arxiv.org/abs/2410.02543">Diffusion Models are Evolutionary Algorithms</a>
